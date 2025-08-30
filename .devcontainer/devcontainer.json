@@ -9,8 +9,13 @@
 			"extensions": [
 				"astro-build.astro-vscode",
 				"DavidAnson.vscode-markdownlint",
-				"esbenp.prettier-vscode"
+				"esbenp.prettier-vscode",
+				"ms-vscode-remote.remote-containers",
+				"bradlc.vscode-tailwindcss",
+				"austenc.tailwind-docs",
+				"svelte.svelte-vscode"
 			]
 		}
-	}
+	},
+	"postCreateCommand": "npm install"
 }
