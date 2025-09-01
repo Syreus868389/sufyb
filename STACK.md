@@ -19,6 +19,7 @@ Astro
 <https://www.shadcn-svelte.com/>  
 <https://merakiui.com/>  
 <https://tailwindcss-radix-colors.mrcai.dev/>
+<https://starwind.dev/docs/getting-started/installation/>
 
 ## Inspiration
 
