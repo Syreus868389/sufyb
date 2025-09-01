@@ -10,13 +10,20 @@ Astro
 
 ## UI Libraries
 
-<https://preline.co/>
-<https://ui.aceternity.com/>
-<https://floatui.com/>
-<https://daisyui.com/>
-<https://uiverse.io/>
-<https://ui-ingredients.vercel.app/>
-<https://www.shadcn-svelte.com/>
+<https://preline.co/>  
+<https://ui.aceternity.com/>  
+<https://floatui.com/>  
+<https://daisyui.com/>  
+<https://uiverse.io/>  
+<https://ui-ingredients.vercel.app/>  
+<https://www.shadcn-svelte.com/>  
+<https://merakiui.com/>  
+<https://tailwindcss-radix-colors.mrcai.dev/>
+
+## Inspiration
+
+<https://land-book.com/>  
+<https://unboundbydefault.com/>
 
 ## Hosting
 
