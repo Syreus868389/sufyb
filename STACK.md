@@ -21,6 +21,10 @@ Astro
 <https://tailwindcss-radix-colors.mrcai.dev/>
 <https://starwind.dev/docs/getting-started/installation/>
 
+## Fonts
+
+Sora + Merriweather
+
 ## Inspiration
 
 <https://land-book.com/>  
