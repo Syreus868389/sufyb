@@ -12,14 +12,10 @@ Astro
 
 <https://preline.co/>  
 <https://ui.aceternity.com/>  
-<https://floatui.com/>  
 <https://daisyui.com/>  
 <https://uiverse.io/>  
-<https://ui-ingredients.vercel.app/>  
 <https://www.shadcn-svelte.com/>  
-<https://merakiui.com/>  
 <https://tailwindcss-radix-colors.mrcai.dev/>
-<https://starwind.dev/docs/getting-started/installation/>
 
 ## Fonts
 
