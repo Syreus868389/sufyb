@@ -16,6 +16,5 @@
 				"svelte.svelte-vscode"
 			]
 		}
-	},
-	"postCreateCommand": "npm install"
+	}
 }
