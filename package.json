@@ -1,25 +1,17 @@
 {
-  "name": "stand-up-for-your-brain",
-  "type": "module",
-  "version": "0.0.1",
+  "name": "sufyb",
+  "private": true,
   "scripts": {
-    "dev": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
-  },
-  "dependencies": {
-    "@astrojs/sitemap": "^3.5.1",
-    "@tailwindcss/vite": "^4.1.12",
-    "astro": "^5.13.3",
-    "astro-icon": "^1.1.5",
-    "preline": "^3.2.3",
-    "@tailwindcss/typography": "^0.5.16"
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint"
   },
   "devDependencies": {
-    "globals": "^16.3.0",
-    "prettier": "^3.6.2",
-    "prettier-plugin-astro": "^0.14.1",
-    "prettier-plugin-tailwindcss": "^0.6.14"
-  }
+    "turbo": "^2.5.6"
+  },
+  "packageManager": "npm@11.5.2",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
 }
