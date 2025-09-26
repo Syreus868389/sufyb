@@ -2,5 +2,47 @@
 
 @theme inline {
     --font-serif: var(--font-lora), ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-    --font-sans: var(--font-source), ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-sans: var(--font-fira), ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+@theme {
+    --color-primary: oklch(0.2638 0.1674 267.58);
+    --color-secondary: oklch(0.7542 0.1609 48.63);
+    --color-accent: oklch(0.7093 0.227 347.48);
+    --color-accent-1: oklch(99.4% 0.0038 347.5);
+    --color-accent-2: oklch(98.2% 0.0092 347.5);
+    --color-accent-3: oklch(95.4% 0.0286 347.5);
+    --color-accent-4: oklch(92.5% 0.0443 347.5);
+    --color-accent-5: oklch(89.3% 0.0579 347.5);
+    --color-accent-6: oklch(85.5% 0.0704 347.5);
+    --color-accent-7: oklch(80.8% 0.0865 347.5);
+    --color-accent-8: oklch(75.1% 0.1099 347.5);
+    --color-accent-9: oklch(70.9% 0.227 347.5);
+    --color-accent-10: oklch(67.2% 0.227 347.5);
+    --color-accent-11: oklch(55.4% 0.2227 347.5);
+    --color-accent-12: oklch(34.4% 0.1288 347.5);
+    --color-primary-1: oklch(99.4% 0.0044 267.6);
+    --color-primary-2: oklch(98.1% 0.0157 267.6);
+    --color-primary-3: oklch(96.1% 0.0296 267.6);
+    --color-primary-4: oklch(93.5% 0.0598 267.6);
+    --color-primary-5: oklch(90.4% 0.0891 267.6);
+    --color-primary-6: oklch(86.5% 0.1179 267.6);
+    --color-primary-7: oklch(80.8% 0.1499 267.6);
+    --color-primary-8: oklch(72.9% 0.2003 267.6);
+    --color-primary-9: oklch(26.4% 0.1674 267.6);
+    --color-primary-10: oklch(34.6% 0.1674 267.6);
+    --color-primary-11: oklch(51% 0.2003 267.6);
+    --color-primary-12: oklch(31.5% 0.1674 267.6);
+    --color-secondary-1: oklch(99.2% 0.0033 48.64);
+    --color-secondary-2: oklch(97.9% 0.0187 48.64);
+    --color-secondary-3: oklch(95.8% 0.0449 48.64);
+    --color-secondary-4: oklch(92% 0.0989 48.64);
+    --color-secondary-5: oklch(89% 0.1301 48.64);
+    --color-secondary-6: oklch(85.7% 0.1345 48.64);
+    --color-secondary-7: oklch(80.5% 0.1381 48.64);
+    --color-secondary-8: oklch(74.5% 0.1623 48.64);
+    --color-secondary-9: oklch(75.2% 0.1623 48.64);
+    --color-secondary-10: oklch(71.7% 0.1623 48.64);
+    --color-secondary-11: oklch(59.1% 0.1623 48.64);
+    --color-secondary-12: oklch(35% 0.0848 48.64);
 }

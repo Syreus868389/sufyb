@@ -1,16 +1,18 @@
 ---
-import Logo from '../assets/logo.svg';
+import Logo from '../assets/logo.svg'
 ---
 
-<footer class="footer bg-base-200 py-5 gap-0 flex justify-between items-center absolute bottom-0 text-xs xmd:text-base">
-    <aside class="flex items-center">
-        <img src={Logo.src} alt="Logo des Mots en filature" class="h-12 pl-5">
-        <p class="pl-2 prose-md">Tous droits réservés<br>© {new Date().getFullYear()}</p>
-    </aside>
-    <nav class="pr-1 xmd:pr-8 items-center">
-        <ul class="flex flex-row *:pr-2 xmd:*:pr-4">
-            <li><a class="hover:underline" href="/">Accueil</a></li>
-            <li><a class="hover:underline" href="/mentions-legales">Mentions Légales</a></li>
-        </ul>
-    </nav>
+<footer
+	class="footer bg-base-200 xmd:text-base absolute bottom-0 flex items-center justify-between gap-0 py-5 text-xs"
+>
+	<aside class="flex items-center">
+		<img src={Logo.src} alt="Logo des Mots en filature" class="h-12 pl-5" />
+		<p class="prose-md pl-2">Tous droits réservés<br />© {new Date().getFullYear()}</p>
+	</aside>
+	<nav class="xmd:pr-8 items-center pr-1">
+		<ul class="xmd:*:pr-4 flex flex-row *:pr-2">
+			<li><a class="hover:underline" href="/">Accueil</a></li>
+			<li><a class="hover:underline" href="/mentions-legales">Mentions Légales</a></li>
+		</ul>
+	</nav>
 </footer>

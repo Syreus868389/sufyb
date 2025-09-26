@@ -1,0 +1,18 @@
+---
+import Card from '../components/Card.svelte'
+import { NotebookPen } from '@lucide/astro'
+import { Image } from 'astro:assets'
+import Book from '../assets/book.jpg'
+---
+
+<div class="text-primary h-120">
+	<!-- Icon Blocks -->
+	<div class="mx-auto max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14">
+		<div class="grid items-center gap-6 sm:grid-cols-2 lg:grid-cols-3">
+			<Card title="Ressources pédagogiques" cta="Découvrir" link="/accueil">
+				<Image src={Book} alt="Peinture représentant un livre" />
+			</Card>
+		</div>
+		<!-- End Icon Blocks -->
+	</div>
+</div>

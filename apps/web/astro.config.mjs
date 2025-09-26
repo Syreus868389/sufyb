@@ -1,11 +1,13 @@
 // @ts-check
 import { defineConfig, fontProviders } from 'astro/config';
 
+import svelte from '@astrojs/svelte';
+
 import tailwindcss from '@tailwindcss/vite';
 
-import icon from 'astro-icon';
-
 import sitemap from "@astrojs/sitemap";
+
+
 
 // https://astro.build/config
 export default defineConfig({
@@ -17,8 +19,8 @@ export default defineConfig({
     },
     {
       provider: fontProviders.fontsource(),
-      name: "Source Sans Pro",
-      cssVariable: "--font-source"
+      name: "Fira Sans",
+      cssVariable: "--font-fira"
     }]
   },
   site: 'https://lesmotsenfilature.fr',
@@ -26,7 +28,6 @@ export default defineConfig({
     "/accueil": "/"
   },
   vite: {
-    // @ts-expect-error
     plugins: [tailwindcss()]
   },
 
@@ -34,5 +35,5 @@ export default defineConfig({
     responsiveStyles: true,
   },
 
-  integrations: [sitemap()],
+  integrations: [svelte(),sitemap()],
 });

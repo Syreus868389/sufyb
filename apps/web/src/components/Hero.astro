@@ -1,0 +1,36 @@
+---
+import Background from '../assets/landing.jpg'
+import { getImage } from 'astro:assets'
+import { ChevronDown, BookImage } from '@lucide/astro'
+
+const betterBackground = await getImage({ src: Background, format: 'webp' })
+---
+
+<!-- Hero -->
+<div
+	style={`background-image: url(${betterBackground.src});`}
+	class="relative z-0 flex h-dvh w-full place-items-center overflow-clip bg-cover bg-center bg-no-repeat"
+>
+	<div class="grid h-full w-full grid-rows-3 bg-black/10 px-36">
+		<div class="row-start-2 flex flex-col justify-center text-white">
+			<div class="font-serif text-4xl md:text-6xl xl:text-7xl">
+				Enseigner l’anglais du Cycle 2 au BTS
+			</div>
+			<div class="mt-6 pt-4 text-base md:text-2xl xl:text-3xl">
+				Réveiller la soif d’apprendre et de transmettre. Sortir de la pensée robotisée.
+			</div>
+		</div>
+
+		<div class="row-start-3 mb-12 self-end text-2xl text-white">
+			<a href="#cards" class="flex w-full cursor-pointer">
+				<ChevronDown
+					class="animate-infinite animate-duration-[1750ms] animate-ease-out mr-2 animate-bounce"
+					size="36"
+				/>
+				En savoir plus
+			</a>
+		</div>
+	</div>
+</div>
+
+<!-- End Hero -->
