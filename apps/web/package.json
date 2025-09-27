@@ -9,14 +9,14 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/sitemap": "^3.5.1",
-    "@astrojs/svelte": "^7.1.1",
+    "@astrojs/sitemap": "^3.6.0",
+    "@astrojs/svelte": "^7.2.0",
     "@directus/sdk": "^20.0.3",
     "@lucide/astro": "^0.544.0",
     "@lucide/svelte": "^0.544.0",
     "@tailwindcss/typography": "^0.5.16",
     "@tailwindcss/vite": "^4.1.12",
-    "astro": "^5.13.3",
+    "astro": "^5.14.1",
     "astro-icon": "^1.1.5",
     "astro-seo": "^0.8.4",
     "preline": "^3.2.3"
