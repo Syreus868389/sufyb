@@ -8,7 +8,7 @@
 		children: Snippet
 	}
 	const { children, title, description, cta, link }: Props = $props()
-	import { ChevronRight } from '@lucide/svelte'
+	import ChevronRight from '@lucide/svelte/icons/chevron-right'
 </script>
 
 <!-- Card -->
@@ -24,9 +24,9 @@
 			<div>{description}</div>
 			<div>
 				{#if link != null && cta != null}
-					<div>
+					<div class="justify-self-end">
 						{cta}
-						<ChevronRight class="justify-self-end" />
+						<ChevronRight />
 					</div>
 				{/if}
 			</div>
