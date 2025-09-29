@@ -24,7 +24,7 @@
 			<div>{description}</div>
 			<div>
 				{#if link != null && cta != null}
-					<div class="justify-self-end">
+					<div class="flex justify-self-end">
 						{cta}
 						<ChevronRight />
 					</div>
