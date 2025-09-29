@@ -22,14 +22,12 @@
 				{title}
 			</div>
 			<div>{description}</div>
-			<div>
-				{#if link != null && cta != null}
-					<div class="flex justify-self-end">
-						{cta}
-						<ChevronRight />
-					</div>
-				{/if}
-			</div>
+			{#if link != null && cta != null}
+				<div class="flex items-end justify-end mb-4 mr-2">
+					{cta}
+					<ChevronRight />
+				</div>
+			{/if}
 		</div>
 	</a>
 </div>
